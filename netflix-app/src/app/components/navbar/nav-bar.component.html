@@ -1,0 +1,10 @@
+<nav class="navbar">
+  <img src="./assets/images/LOGO/logo.png" alt="FalseFlix logo" />
+  <ul class="navbar__links">
+    <li *ngFor="let item of navBar">
+      <a href="{{ item.link }}">{{ item.name }}</a>
+    </li>
+  </ul>
+  <button (click)="changeDark()">{{theme}}</button>
+</nav>
+

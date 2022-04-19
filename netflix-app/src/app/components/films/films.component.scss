@@ -1,0 +1,23 @@
+.films {
+  padding: 20px;
+  background-color: black;
+
+  h2 {
+    text-transform: uppercase;
+    color: white;
+    font-family: ui-monospace;
+
+  }
+  .filmsGallery {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    &__item {
+      img {
+        width: 240px;
+      }
+    }
+  }
+}
